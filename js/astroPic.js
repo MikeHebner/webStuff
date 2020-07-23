@@ -20,17 +20,16 @@ function drawAstro(d) {
     document.getElementById('date').innerHTML = d.date;
     document.getElementById('title').innerHTML = d.title;
     document.getElementById('explanation').innerHTML = d.explanation;
-    document.getElementById('pic').innerHTML = d.hdurl;
-
+    document.getElementById('img').innerHTML = d.hdurl;
+    addimage(d.hdurl)
 }
 
-function addimage(url) {
+function addimage(x) {
     var img = new Image();
-    img.src = url;
-    img_home.appendChild(img);
+    img.src = x;
+    document.appendChild(img);
 }
 
 window.onload = function () {
     telescope();
-    addimage(d.hdurl)
 }
