@@ -21,7 +21,6 @@ function drawAstro(d) {
     document.getElementById('title').innerHTML = d.title;
     document.getElementById('explanation').innerHTML = d.explanation;
     document.getElementById('pic').innerHTML = d.hdurl;
-    addimage(d.hdurl)
 
 }
 
@@ -33,4 +32,5 @@ function addimage(url) {
 
 window.onload = function () {
     telescope();
+    addimage(d.hdurl)
 }
