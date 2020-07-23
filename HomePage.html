@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <title>HebHub</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/topBar.css">
+    <link rel="stylesheet" href="css/HomePage.css">
+</head>
+<body>
+
+  <div class="topBlock">
+      <h1>HEB-HUB</h1>
+      <p>*Work In Progress*</p>
+      <p>EST. 2020<p>
+      <nav class="menu">
+          <ul>
+              <li><a href="HomePage.php">Home</a>
+                <a href="roster.html">Roster</a>
+                <a href="weatherForcast.html">Weather</a>
+                <a href="astroPic.html">Astro Pic</a></li>
+          </ul>
+      </nav>
+  </div>
+    <img src="media/tumble.gif" height="550" width="750"/>
+    <p>The date is JavaScript.</p>
+    <p id="date"></p>
+    <script src="js/app.js"></script>
+<!--PHP doesn't work currently. File downloads when
+names HomePage.php.-->
+    <?php
+        echo "PHP---> The time is " . date("h:i:sa");
+        ?>
+</body>
+</html>
