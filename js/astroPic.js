@@ -25,6 +25,7 @@ function drawAstro(d) {
     var newImg = new Image;
     newImg.onload = function(){
         test.src = this.src;
+        newImg.src = test;
     }
     newImg.src = d.hdurl;
 }
