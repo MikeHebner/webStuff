@@ -1,0 +1,15 @@
+
+.title {
+    text-decoration-style: wavy;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
