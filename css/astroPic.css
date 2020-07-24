@@ -12,4 +12,5 @@ img {
 p {
     margin-left: 10px;
     margin-right: 10px;
+    border: 2px steelblue;
 }
