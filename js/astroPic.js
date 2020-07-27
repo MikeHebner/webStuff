@@ -21,8 +21,8 @@ function drawAstro(d) {
     document.getElementById('title').innerHTML = d.title;
     document.getElementById('explanation').innerHTML = d.explanation;
     document.getElementById('imgUrl').innerHTML = d.hdurl;
-    var test = document.getElementById('pic');
-    var newImg = new Image;
+    let test = document.getElementById('pic');
+    let newImg = new Image;
     newImg.onload = function(){
         test.src = this.src;
         newImg.src = test;
